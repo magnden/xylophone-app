@@ -19,6 +19,14 @@
 		63C019F31C58E4AD001F4187 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EC1C58E4AD001F4187 /* note5.wav */; };
 		63C019F41C58E4AD001F4187 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019ED1C58E4AD001F4187 /* note6.wav */; };
 		63C019F51C58E4AD001F4187 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EE1C58E4AD001F4187 /* note7.wav */; };
+		955EB3F31F647D30006D8189 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955EB3F21F647D30006D8189 /* AVFoundation.framework */; };
+		955EB3F41F647D3B006D8189 /* note1.wav in Sources */ = {isa = PBXBuildFile; fileRef = 63C019E81C58E4AD001F4187 /* note1.wav */; };
+		955EB3F51F647D3B006D8189 /* note2.wav in Sources */ = {isa = PBXBuildFile; fileRef = 63C019E91C58E4AD001F4187 /* note2.wav */; };
+		955EB3F61F647D3B006D8189 /* note3.wav in Sources */ = {isa = PBXBuildFile; fileRef = 63C019EA1C58E4AD001F4187 /* note3.wav */; };
+		955EB3F71F647D3B006D8189 /* note4.wav in Sources */ = {isa = PBXBuildFile; fileRef = 63C019EB1C58E4AD001F4187 /* note4.wav */; };
+		955EB3F81F647D3B006D8189 /* note5.wav in Sources */ = {isa = PBXBuildFile; fileRef = 63C019EC1C58E4AD001F4187 /* note5.wav */; };
+		955EB3F91F647D3B006D8189 /* note6.wav in Sources */ = {isa = PBXBuildFile; fileRef = 63C019ED1C58E4AD001F4187 /* note6.wav */; };
+		955EB3FA1F647D3B006D8189 /* note7.wav in Sources */ = {isa = PBXBuildFile; fileRef = 63C019EE1C58E4AD001F4187 /* note7.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,7 @@
 		63C019EC1C58E4AD001F4187 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
 		63C019ED1C58E4AD001F4187 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
 		63C019EE1C58E4AD001F4187 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		955EB3F21F647D30006D8189 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955EB3F31F647D30006D8189 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +78,7 @@
 			children = (
 				63C019C71C58DF76001F4187 /* Xylophone */,
 				63C019C61C58DF76001F4187 /* Products */,
+				955EB3F11F647D30006D8189 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +102,14 @@
 				6385B12D1C68C76C00E57640 /* Sound Files */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		955EB3F11F647D30006D8189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955EB3F21F647D30006D8189 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955EB3F41F647D3B006D8189 /* note1.wav in Sources */,
+				955EB3F51F647D3B006D8189 /* note2.wav in Sources */,
+				955EB3F61F647D3B006D8189 /* note3.wav in Sources */,
+				955EB3F71F647D3B006D8189 /* note4.wav in Sources */,
+				955EB3F81F647D3B006D8189 /* note5.wav in Sources */,
+				955EB3F91F647D3B006D8189 /* note6.wav in Sources */,
+				955EB3FA1F647D3B006D8189 /* note7.wav in Sources */,
 				63C019CB1C58DF76001F4187 /*  VIewController.swift in Sources */,
 				63C019C91C58DF76001F4187 /* AppDelegate.swift in Sources */,
 			);
@@ -302,7 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Xylophone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.Xylophone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennismagnusson.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -315,7 +341,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Xylophone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.Xylophone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennismagnusson.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
